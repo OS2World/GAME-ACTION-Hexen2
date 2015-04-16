@@ -1,0 +1,44 @@
+#include <os2.h>
+#include "hexos2.h"
+
+
+ICON ID_APPNAME hexen.ICO
+STRINGTABLE LOADONCALL MOVEABLE
+BEGIN
+        ID_APPNAME "Hexen/2"
+END
+
+MENU ID_APPNAME
+{
+   SUBMENU "~File", -1
+   {
+      MENUITEM "E~xit\tAlt+F4", IDM_EXIT
+   }
+   SUBMENU "~Options", -1
+   {
+      MENUITEM "~Settings...", IDM_SETTINGS
+      SUBMENU "~Size", -1
+      {
+         MENUITEM "~320x200", IDM_320x200
+         MENUITEM "640x400", IDM_640x400
+         MENUITEM "~640x480", IDM_640x480
+         MENUITEM "800x500", IDM_800x500
+         MENUITEM "~800x600", IDM_800x600
+      }
+/*
+      SUBMENU "S~peed", -1
+      {
+         MENUITEM "~Dead fast" , IDM_SPEED1
+         MENUITEM "~Fast"      , IDM_SPEED2
+         MENUITEM "~Normal"    , IDM_SPEED3
+         MENUITEM "~Slow"      , IDM_SPEED4
+      }
+*/
+   }
+   SUBMENU "~Help", -1
+   {
+      MENUITEM "~About", IDM_ABOUT
+   }
+}
+
+rcinclude "setting.dlg"

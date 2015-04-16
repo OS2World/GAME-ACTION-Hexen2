@@ -1,0 +1,16 @@
+!define BLANK ""
+f:\game.src\hexen.os2\hexstub.obj : f:\game.src\hexen.os2\hexstub.c .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc hexstub.c -i=E:\WATCOM\h -w4 -e25 -zq -otexan -d1 -bt=dos -ml
+
+f:\game.src\hexen.os2\hexstub.exe : f:\game.src\hexen.os2\hexstub.obj .AUTOD&
+EPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ @%write hexstub.lk1 FIL hexstub.obj
+ @%append hexstub.lk1 
+ *wlink name hexstub SYS dos op inc op m op maxe=25 op q op symf @hexstub.lk&
+1
+

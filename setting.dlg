@@ -1,0 +1,22 @@
+DLGINCLUDE 1 "setting.h"
+
+DLGTEMPLATE ID_SETTINGDLG LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "Settings", ID_SETTINGDLG, 12, 54, 198, 78, WS_VISIBLE, 
+            FCF_SYSMENU | FCF_TITLEBAR
+    BEGIN
+        AUTOCHECKBOX    "~Frame Per Second (-fps)", ID_FPS, 11, 65, 183, 10
+        AUTOCHECKBOX    "No ~mouse capture (-nomousecapture)", 
+                        ID_NOMOUSECAPTURE, 11, 55, 183, 10
+        AUTOCHECKBOX    "No ~pause (-nopause)", ID_NOPAUSE, 11, 45, 183, 10
+        AUTOCHECKBOX    "No ~VRAM (-novram)", ID_NOVRAM, 11, 35, 183, 10
+        LTEXT           "Fame speed", 105, 11, 23, 59, 12, DT_VCENTER
+        CONTROL         "", ID_FRAMESPEED, 73, 23, 48, 12, WC_SPINBUTTON, 
+                        SPBS_ALLCHARACTERS | SPBS_NUMERICONLY | SPBS_MASTER | 
+                        SPBS_SERVANT | SPBS_JUSTDEFAULT | SPBS_PADWITHZEROS | 
+                        WS_GROUP | WS_TABSTOP | WS_VISIBLE
+        DEFPUSHBUTTON   "~OK", DID_OK, 53, 2, 40, 14
+        PUSHBUTTON      "~Cancel", DID_CANCEL, 107, 2, 40, 14
+        LTEXT           "(-framespeed)", 107, 129, 23, 64, 12, DT_VCENTER
+    END
+END

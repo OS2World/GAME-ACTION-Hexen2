@@ -1,0 +1,471 @@
+!define BLANK ""
+f:\game.src\hexen.os2\A_ACTION.obj : f:\game.src\hexen.os2\A_ACTION.C .AUTOD&
+EPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 A_ACTION.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq &
+-otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\AM_MAP.obj : f:\game.src\hexen.os2\AM_MAP.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 AM_MAP.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\CT_CHAT.obj : f:\game.src\hexen.os2\CT_CHAT.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 CT_CHAT.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\D_NET.obj : f:\game.src\hexen.os2\D_NET.C .AUTODEPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 D_NET.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -ot&
+exan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\F_FINALE.obj : f:\game.src\hexen.os2\F_FINALE.C .AUTOD&
+EPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 F_FINALE.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq &
+-otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\G_GAME.obj : f:\game.src\hexen.os2\G_GAME.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 G_GAME.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\H2_MAIN.obj : f:\game.src\hexen.os2\H2_MAIN.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 H2_MAIN.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\hexos2.obj : f:\game.src\hexen.os2\hexos2.c .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 hexos2.c -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\I_CDMUS.obj : f:\game.src\hexen.os2\I_CDMUS.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 I_CDMUS.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\I_CYBER.obj : f:\game.src\hexen.os2\I_CYBER.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 I_CYBER.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\i_dart.obj : f:\game.src\hexen.os2\i_dart.c .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 i_dart.c -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\I_IBM.obj : f:\game.src\hexen.os2\I_IBM.C .AUTODEPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 I_IBM.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -ot&
+exan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\I_SOUND.obj : f:\game.src\hexen.os2\I_SOUND.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 I_SOUND.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\IN_LUDE.obj : f:\game.src\hexen.os2\IN_LUDE.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 IN_LUDE.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\INFO.obj : f:\game.src\hexen.os2\INFO.C .AUTODEPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 INFO.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -ote&
+xan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\joyos2.obj : f:\game.src\hexen.os2\joyos2.c .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 joyos2.c -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\M_MISC.obj : f:\game.src\hexen.os2\M_MISC.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 M_MISC.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\MN_MENU.obj : f:\game.src\hexen.os2\MN_MENU.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 MN_MENU.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\os2dart.obj : f:\game.src\hexen.os2\os2dart.c .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 os2dart.c -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\os2sound.obj : f:\game.src\hexen.os2\os2sound.c .AUTOD&
+EPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 os2sound.c -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq &
+-otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_ACS.obj : f:\game.src\hexen.os2\P_ACS.C .AUTODEPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_ACS.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -ot&
+exan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_ANIM.obj : f:\game.src\hexen.os2\P_ANIM.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_ANIM.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_CEILNG.obj : f:\game.src\hexen.os2\P_CEILNG.C .AUTOD&
+EPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_CEILNG.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq &
+-otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_DOORS.obj : f:\game.src\hexen.os2\P_DOORS.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_DOORS.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_ENEMY.obj : f:\game.src\hexen.os2\P_ENEMY.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_ENEMY.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_FLOOR.obj : f:\game.src\hexen.os2\P_FLOOR.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_FLOOR.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_INTER.obj : f:\game.src\hexen.os2\P_INTER.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_INTER.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_LIGHTS.obj : f:\game.src\hexen.os2\P_LIGHTS.C .AUTOD&
+EPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_LIGHTS.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq &
+-otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_MAP.obj : f:\game.src\hexen.os2\P_MAP.C .AUTODEPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_MAP.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -ot&
+exan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_MAPUTL.obj : f:\game.src\hexen.os2\P_MAPUTL.C .AUTOD&
+EPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_MAPUTL.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq &
+-otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_MOBJ.obj : f:\game.src\hexen.os2\P_MOBJ.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_MOBJ.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_PLATS.obj : f:\game.src\hexen.os2\P_PLATS.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_PLATS.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_PSPR.obj : f:\game.src\hexen.os2\P_PSPR.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_PSPR.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_SETUP.obj : f:\game.src\hexen.os2\P_SETUP.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_SETUP.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_SIGHT.obj : f:\game.src\hexen.os2\P_SIGHT.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_SIGHT.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_SPEC.obj : f:\game.src\hexen.os2\P_SPEC.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_SPEC.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_SWITCH.obj : f:\game.src\hexen.os2\P_SWITCH.C .AUTOD&
+EPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_SWITCH.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq &
+-otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_TELEPT.obj : f:\game.src\hexen.os2\P_TELEPT.C .AUTOD&
+EPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_TELEPT.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq &
+-otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_THINGS.obj : f:\game.src\hexen.os2\P_THINGS.C .AUTOD&
+EPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_THINGS.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq &
+-otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_TICK.obj : f:\game.src\hexen.os2\P_TICK.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_TICK.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\P_USER.obj : f:\game.src\hexen.os2\P_USER.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 P_USER.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\PO_MAN.obj : f:\game.src\hexen.os2\PO_MAN.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 PO_MAN.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\qmus2mid.obj : f:\game.src\hexen.os2\qmus2mid.c .AUTOD&
+EPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 qmus2mid.c -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq &
+-otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\R_BSP.obj : f:\game.src\hexen.os2\R_BSP.C .AUTODEPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 R_BSP.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -ot&
+exan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\R_DATA.obj : f:\game.src\hexen.os2\R_DATA.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 R_DATA.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\R_DRAW.obj : f:\game.src\hexen.os2\R_DRAW.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 R_DRAW.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\R_MAIN.obj : f:\game.src\hexen.os2\R_MAIN.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 R_MAIN.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\R_PLANE.obj : f:\game.src\hexen.os2\R_PLANE.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 R_PLANE.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\R_SEGS.obj : f:\game.src\hexen.os2\R_SEGS.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 R_SEGS.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\R_THINGS.obj : f:\game.src\hexen.os2\R_THINGS.C .AUTOD&
+EPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 R_THINGS.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq &
+-otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\SB_BAR.obj : f:\game.src\hexen.os2\SB_BAR.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 SB_BAR.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\SC_MAN.obj : f:\game.src\hexen.os2\SC_MAN.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 SC_MAN.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\SN_SONIX.obj : f:\game.src\hexen.os2\SN_SONIX.C .AUTOD&
+EPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 SN_SONIX.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq &
+-otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\SOUNDS.obj : f:\game.src\hexen.os2\SOUNDS.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 SOUNDS.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\ST_START.obj : f:\game.src\hexen.os2\ST_START.C .AUTOD&
+EPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 ST_START.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq &
+-otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\SV_SAVE.obj : f:\game.src\hexen.os2\SV_SAVE.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 SV_SAVE.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\TABLES.obj : f:\game.src\hexen.os2\TABLES.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 TABLES.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\V_VIDEO.obj : f:\game.src\hexen.os2\V_VIDEO.C .AUTODEP&
+END
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 V_VIDEO.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -&
+otexan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\W_WAD.obj : f:\game.src\hexen.os2\W_WAD.C .AUTODEPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 W_WAD.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -ot&
+exan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\Z_ZONE.obj : f:\game.src\hexen.os2\Z_ZONE.C .AUTODEPEN&
+D
+ @f:
+ cd f:\game.src\hexen.os2
+ *wcc386 Z_ZONE.C -i=E:\WATCOM\h;E:\WATCOM\h\os2 -w4 -e25 -j -ei -zp1 -zq -o&
+texan -d1 -bm -4r -bt=os2 -mf
+
+f:\game.src\hexen.os2\hexen.res : f:\game.src\hexen.os2\hexen.rc .AUTODEPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ rc -i $[: -i E:\WATCOM\h -i E:\WATCOM\h\os2 -r hexen.rc hexen.res
+
+f:\game.src\hexen.os2\hexos2.exe : f:\game.src\hexen.os2\A_ACTION.obj f:\gam&
+e.src\hexen.os2\AM_MAP.obj f:\game.src\hexen.os2\CT_CHAT.obj f:\game.src\hex&
+en.os2\D_NET.obj f:\game.src\hexen.os2\F_FINALE.obj f:\game.src\hexen.os2\G_&
+GAME.obj f:\game.src\hexen.os2\H2_MAIN.obj f:\game.src\hexen.os2\hexos2.obj &
+f:\game.src\hexen.os2\I_CDMUS.obj f:\game.src\hexen.os2\I_CYBER.obj f:\game.&
+src\hexen.os2\i_dart.obj f:\game.src\hexen.os2\I_IBM.obj f:\game.src\hexen.o&
+s2\I_SOUND.obj f:\game.src\hexen.os2\IN_LUDE.obj f:\game.src\hexen.os2\INFO.&
+obj f:\game.src\hexen.os2\joyos2.obj f:\game.src\hexen.os2\M_MISC.obj f:\gam&
+e.src\hexen.os2\MN_MENU.obj f:\game.src\hexen.os2\os2dart.obj f:\game.src\he&
+xen.os2\os2sound.obj f:\game.src\hexen.os2\P_ACS.obj f:\game.src\hexen.os2\P&
+_ANIM.obj f:\game.src\hexen.os2\P_CEILNG.obj f:\game.src\hexen.os2\P_DOORS.o&
+bj f:\game.src\hexen.os2\P_ENEMY.obj f:\game.src\hexen.os2\P_FLOOR.obj f:\ga&
+me.src\hexen.os2\P_INTER.obj f:\game.src\hexen.os2\P_LIGHTS.obj f:\game.src\&
+hexen.os2\P_MAP.obj f:\game.src\hexen.os2\P_MAPUTL.obj f:\game.src\hexen.os2&
+\P_MOBJ.obj f:\game.src\hexen.os2\P_PLATS.obj f:\game.src\hexen.os2\P_PSPR.o&
+bj f:\game.src\hexen.os2\P_SETUP.obj f:\game.src\hexen.os2\P_SIGHT.obj f:\ga&
+me.src\hexen.os2\P_SPEC.obj f:\game.src\hexen.os2\P_SWITCH.obj f:\game.src\h&
+exen.os2\P_TELEPT.obj f:\game.src\hexen.os2\P_THINGS.obj f:\game.src\hexen.o&
+s2\P_TICK.obj f:\game.src\hexen.os2\P_USER.obj f:\game.src\hexen.os2\PO_MAN.&
+obj f:\game.src\hexen.os2\qmus2mid.obj f:\game.src\hexen.os2\R_BSP.obj f:\ga&
+me.src\hexen.os2\R_DATA.obj f:\game.src\hexen.os2\R_DRAW.obj f:\game.src\hex&
+en.os2\R_MAIN.obj f:\game.src\hexen.os2\R_PLANE.obj f:\game.src\hexen.os2\R_&
+SEGS.obj f:\game.src\hexen.os2\R_THINGS.obj f:\game.src\hexen.os2\SB_BAR.obj&
+ f:\game.src\hexen.os2\SC_MAN.obj f:\game.src\hexen.os2\SN_SONIX.obj f:\game&
+.src\hexen.os2\SOUNDS.obj f:\game.src\hexen.os2\ST_START.obj f:\game.src\hex&
+en.os2\SV_SAVE.obj f:\game.src\hexen.os2\TABLES.obj f:\game.src\hexen.os2\V_&
+VIDEO.obj f:\game.src\hexen.os2\W_WAD.obj f:\game.src\hexen.os2\Z_ZONE.obj e&
+:\watcom\lib\mmpm2.lib f:\toolkit\lib\os2386.lib f:\game.src\hexen.os2\hexen&
+.res .AUTODEPEND
+ @f:
+ cd f:\game.src\hexen.os2
+ @%write hexos2.lk1 FIL A_ACTION.obj,AM_MAP.obj,CT_CHAT.obj,D_NET.obj,F_FINA&
+LE.obj,G_GAME.obj,H2_MAIN.obj,hexos2.obj,I_CDMUS.obj,I_CYBER.obj,i_dart.obj,&
+I_IBM.obj,I_SOUND.obj,IN_LUDE.obj,INFO.obj,joyos2.obj,M_MISC.obj,MN_MENU.obj&
+,os2dart.obj,os2sound.obj,P_ACS.obj,P_ANIM.obj,P_CEILNG.obj,P_DOORS.obj,P_EN&
+EMY.obj,P_FLOOR.obj,P_INTER.obj,P_LIGHTS.obj,P_MAP.obj,P_MAPUTL.obj,P_MOBJ.o&
+bj,P_PLATS.obj,P_PSPR.obj,P_SETUP.obj,P_SIGHT.obj,P_SPEC.obj,P_SWITCH.obj,P_&
+TELEPT.obj,P_THINGS.obj,P_TICK.obj,P_USER.obj,PO_MAN.obj,qmus2mid.obj,R_BSP.&
+obj,R_DATA.obj,R_DRAW.obj,R_MAIN.obj,R_PLANE.obj,R_SEGS.obj,R_THINGS.obj,SB_&
+BAR.obj,SC_MAN.obj,SN_SONIX.obj,SOUNDS.obj,ST_START.obj,SV_SAVE.obj,TABLES.o&
+bj,V_VIDEO.obj,W_WAD.obj,Z_ZONE.obj
+ @%append hexos2.lk1 LIBR e:\watcom\lib\mmpm2.lib,\toolkit\lib\os2386.lib
+!ifneq BLANK ""
+ *wlib -q -n -b hexos2.imp 
+ @%append hexos2.lk1 LIBR hexos2.imp
+!endif
+ *wlink name hexos2 SYS os2v2 pm op m op maxe=25 op q op symf op stub=hexstu&
+b.exe @hexos2.lk1
+!ifneq BLANK "hexen.res"
+ rc -i $[: -i E:\WATCOM\h -i E:\WATCOM\h\os2 hexen.res hexos2.exe
+!endif
+
